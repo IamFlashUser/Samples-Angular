@@ -1,5 +1,4 @@
 ﻿using System.Web.Mvc;
-using System.Web.Optimization;
 using System.Web.Routing;
 
 namespace Integrating_the_Report_Components_in_ASP_NET_App
@@ -11,7 +10,6 @@ namespace Integrating_the_Report_Components_in_ASP_NET_App
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
